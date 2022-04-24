@@ -26,31 +26,62 @@ const SellPage = (props) => {
   //   e.target.style.backgroundColor = "";
   // };
 
-  const products = [
+  // const products = [
+  //   {
+  //     id: 1,
+  //     name: "Mango Juice",
+  //     price: 50,
+  //     img: Mango,
+  //     quantity: 1,
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Pineapple juice",
+  //     price: 60,
+  //     img: Pineapple,
+  //     quantity: 1,
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Apple Juice",
+  //     price: 30,
+  //     img: Apple,
+  //     quantity: 1,
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "Pomegrenate Juice",
+  //     price: 30,
+  //     img: Pomegranate,
+  //     quantity: 1,
+  //   },
+  // ];
+
+    const products = [
     {
       id: 1,
-      name: "Mango Juice",
+      name: "Insurance for 3 months",
       price: 50,
       img: Mango,
       quantity: 1,
     },
     {
       id: 2,
-      name: "Pineapple juice",
+      name: "Insurance for 6 months",
       price: 60,
       img: Pineapple,
       quantity: 1,
     },
     {
       id: 3,
-      name: "Apple Juice",
+      name: "Insurance for 9 months",
       price: 30,
       img: Apple,
       quantity: 1,
     },
     {
       id: 4,
-      name: "Pomegrenate Juice",
+      name: "Insurance for 12 months",
       price: 30,
       img: Pomegranate,
       quantity: 1,
@@ -240,7 +271,7 @@ const SellPage = (props) => {
 {/* order1 */}
           <div className="col-md-5 popular_items_section">
             <h2>
-              <span>⭐</span>Popular Items
+              <span>⭐</span>Types of insurance
             </h2>
             <div className="popular_items_container List">
               {products.map((product) => (

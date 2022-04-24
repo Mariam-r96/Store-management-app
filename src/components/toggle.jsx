@@ -19,8 +19,8 @@ const Toggle = () => {
         offstyle="outline-danger"
         onstyle="outline-info"
         checked={toggle}
-        onlabel="Direct Sell"
-        offlabel="Food Panda"
+        onlabel="Online"
+        offlabel="Offline"
         onChange={onToggle}
       />
     </>
